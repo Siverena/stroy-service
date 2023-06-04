@@ -1,5 +1,15 @@
+import SsSocial from '@/components/ss-social/SsSocial.vue';
+import SsBtn from '@/elements/ss-btn/SsBtn.vue';
 export default {
   name: 'SsHeader',
-  components: {},
+  components: {
+    SsSocial,
+    SsBtn,
+  },
+  data() {
+    return {
+      isHeader: true,
+    };
+  },
   methods: {},
 };

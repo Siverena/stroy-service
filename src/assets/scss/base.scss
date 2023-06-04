@@ -3,3 +3,11 @@
     padding: 0 15px;
     margin: 0 auto;
 }
+body {
+    // font-family: "Manrope", sans-serif;
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    color: $text-main;
+    line-height: 21px;
+    min-width: $min-width-desktop;
+}

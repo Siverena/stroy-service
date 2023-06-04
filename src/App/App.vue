@@ -4,6 +4,8 @@
   <main>
     <router-view />
   </main>
+  <SsContacts />
+  <SsFooter />
 </template>
 <script src="./app.js"></script>
 
