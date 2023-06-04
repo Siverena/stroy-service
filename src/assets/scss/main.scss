@@ -1,6 +1,6 @@
 /**********
 /* NORMALIZE */
-@import "./normalize.scss";
+@import './normalize.scss';
 
 /**********
 /* MIXINS */
@@ -9,7 +9,7 @@
 /**********
 
 /* BASE */
-@import "./base";
+@import './base';
 
 /**********
 /* ELEMENTS */
@@ -22,10 +22,12 @@
 @import "./components/ss-social.scss";
 @import "./components/ss-footer.scss";
 @import "./components/ss-contacts.scss";
+@import './components/ss-slider.scss';
 
+/**********
 /* PAGES */
 // @import "./pages/promotion-page.scss";
 
 /**********
 /* FONTS */
-@import "./fonts.scss";
+@import './fonts.scss';
