@@ -1,0 +1,42 @@
+.agile {
+  &__dots {
+    bottom: 17px;
+    margin: 0;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  &__dot {
+    margin-right: 13px;
+    &:last-child {
+      margin-right: 0;
+    }
+    & button {
+      background-color: transparent;
+      border: 3px solid #fff;
+      border-radius: 50%;
+      box-sizing: border-box;
+      cursor: pointer;
+      display: block;
+      height: 17px;
+      font-size: 0;
+      line-height: 0;
+      margin: 0;
+      padding: 0;
+      transition-duration: 0.3s;
+      width: 17px;
+    }
+    &--current button,
+    &:hover button {
+      background-color: $btn-green;
+    }
+  }
+}
+.slide {
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
