@@ -13,12 +13,15 @@
 
 /**********
 /* ELEMENTS */
-// @import "./elements/_dl-logo.scss";
+@import "./elements/ss-btn.scss";
 
 /**********
 /* COMPONENTS */
 
 @import "./components/ss-header.scss";
+@import "./components/ss-social.scss";
+@import "./components/ss-footer.scss";
+@import "./components/ss-contacts.scss";
 
 /* PAGES */
 // @import "./pages/promotion-page.scss";
