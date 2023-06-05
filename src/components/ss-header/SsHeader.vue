@@ -41,7 +41,11 @@
             alt=""
             class="ss-header__logo"
           />
-          <SsBtn class="ss-header__add-task">Оставить заявку</SsBtn>
+          <SsBtn
+            class="ss-header__add-task"
+            @click="this.$store.commit('openModal')"
+            >Оставить заявку</SsBtn
+          >
         </div>
         <div class="ss-header__quality">
           <img
