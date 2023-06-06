@@ -1,5 +1,5 @@
 .ss-btn {
-    font-weight: 700px;
+    font-weight: 700;
     height: 50px;
     display: flex;
     align-items: center;
@@ -8,6 +8,7 @@
     background-color: $btn-green;
     color: $text-white;
     border-radius: 10px;
+
     &--grey {
         background-color: $btn-gray;
     }

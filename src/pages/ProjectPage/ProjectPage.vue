@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <SsSlider />
-    <SsCategories />
+    <SsProjects />
   </div>
 </template>
-<script src="./main-page.js"></script>
+<script src="./project-page.js"></script>

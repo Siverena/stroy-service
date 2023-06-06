@@ -1,9 +1,12 @@
 import { createStore } from 'vuex';
+import categories from './modules/categories.js';
+import house from './modules/house.js';
+import projects from './modules/projects.js';
 
 export default createStore({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+  modules: {
+    categories,
+    house,
+    projects,
+  },
 });

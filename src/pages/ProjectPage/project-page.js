@@ -1,11 +1,16 @@
 import SsSlider from '@/components/ss-slider/SsSlider.vue';
 import SsSectionHeader from '@/elements/ss-section-header/SsSectionHeader.vue';
-import SsCategories from '@/components/ss-categories/SsCategories.vue';
+import SsProjects from '@/components/ss-projects/SsProjects.vue';
+import { mapActions } from 'vuex';
 export default {
-  name: 'MainPage',
+  name: 'ProjectPage',
   components: {
     SsSlider,
     SsSectionHeader,
-    SsCategories,
+    SsProjects,
+  },
+
+  data() {
+    return {};
   },
 };

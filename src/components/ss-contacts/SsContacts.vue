@@ -1,6 +1,6 @@
 <template>
   <div class="ss-contacts">
-    <p class="ss-contacts__header">Наши контакты</p>
+    <ssSectionHeader>Наши контакты</ssSectionHeader>
     <div class="container ss-contacts__container">
       <div class="ss-contacts__map-info">
         <div class="ss-contacts__map-block">
