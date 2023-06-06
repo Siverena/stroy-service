@@ -1,4 +1,6 @@
 .agile {
+  border-radius: 10px;
+  overflow: hidden;
   &__dots {
     bottom: 17px;
     margin: 0;
@@ -13,7 +15,7 @@
       margin-right: 0;
     }
     & button {
-      background-color: transparent;
+      background-color: #fff;
       border: 3px solid #fff;
       border-radius: 50%;
       box-sizing: border-box;

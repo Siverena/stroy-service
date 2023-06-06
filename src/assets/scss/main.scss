@@ -13,12 +13,15 @@
 
 /**********
 /* ELEMENTS */
+
 @import "./elements/ss-btn.scss";
 @import "./elements/ss-section-header.scss";
 @import "./elements/ss-loader.scss";
 
+
 /**********
 /* COMPONENTS */
+
 
 @import "./components/ss-header.scss";
 @import "./components/ss-social.scss";
@@ -27,6 +30,8 @@
 @import "./components/ss-slider.scss";
 @import "./components/ss-categories.scss";
 @import "./components/ss-projects.scss";
+@import './components/ss-modal.scss';
+
 
 /**********
 /* PAGES */
