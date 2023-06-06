@@ -36,16 +36,20 @@
       </div>
       <div class="ss-header__middle">
         <div class="ss-header__logo-cont">
-          <img
-            src="../../assets/img/ss-header/logo.svg"
-            alt=""
-            class="ss-header__logo"
-          />
+
+          <router-link to="/">
+            <img
+              src="../../assets/img/ss-header/logo.svg"
+              alt=""
+              class="ss-header__logo"
+            />
+          </router-link>
           <SsBtn
             class="ss-header__add-task"
             @click="this.$store.commit('openModal')"
             >Оставить заявку</SsBtn
           >
+
         </div>
         <div class="ss-header__quality">
           <img

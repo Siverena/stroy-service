@@ -1,10 +1,16 @@
 import { createStore } from 'vuex';
-import modalModule from './modules/modal';
+
+import categories from './modules/categories.js';
+import house from './modules/house.js';
+import projects from './modules/projects.js';
+  import modalModule from './modules/modal';
 
 export default createStore({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
-  modules: { modalModule },
+  modules: {
+    categories,
+    house,
+    projects,
+    modalModule
+  },
+
 });
