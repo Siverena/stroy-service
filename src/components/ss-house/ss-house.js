@@ -1,11 +1,13 @@
 import SsLoader from '@/elements/ss-loader/SsLoader.vue';
-import SsSectionHeader from '@/elements/ss-section-header/SsSectionHeader';
+import SsSectionHeader from '@/elements/ss-section-header/SsSectionHeader.vue';
+import SsBtn from '@/elements/ss-btn/SsBtn.vue';
 import { mapActions, mapGetters } from 'vuex';
 export default {
   name: 'SsHouse',
   components: {
     SsLoader,
     SsSectionHeader,
+    SsBtn,
   },
   data() {
     return {
