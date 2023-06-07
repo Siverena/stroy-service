@@ -65,6 +65,8 @@
     }
     &__call-back-ring {
         color: $text-main;
+        text-decoration: underline;
+        cursor: pointer;
     }
     &__middle {
         display: flex;

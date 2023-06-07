@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import MainPage from '@/pages/MainPage/MainPage.vue';
 import ProjectPage from '@/pages/ProjectPage/ProjectPage.vue';
+import HousePage from '@/pages/HousePage/HousePage.vue';
 
 const routes = [
   {
@@ -13,6 +14,12 @@ const routes = [
     name: 'project',
     props: (route) => ({ id: route.params.id }),
     component: ProjectPage,
+  },
+  {
+    path: '/house/:id',
+    name: 'house',
+    props: (route) => ({ id: route.params.id }),
+    component: HousePage,
   },
 ];
 
