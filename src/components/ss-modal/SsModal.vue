@@ -43,7 +43,9 @@
         placeholder="Укажите интересующий проект или описание к собственному проект"
         class="ss-modal__input ss-modal__input--textarea"
       ></textarea>
-      <SsBtn @click="submit" class="ss-modal__send-btn">Отправить заявку</SsBtn>
+      <SsBtn @click="submit" class="ss-btn--green ss-modal__send-btn"
+        >Отправить заявку</SsBtn
+      >
       <SsBtn class="ss-btn--grey" @click="this.$store.commit('closeModal')"
         >Назад</SsBtn
       >
