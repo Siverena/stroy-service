@@ -13,7 +13,7 @@
         </p>
         <p class="ss-project__baddroom ss-project__line-item">
           Спальни: <br />
-          {{ project.badroom }}
+          {{ project.bedroom }}
         </p>
         <p class="ss-project__bathroom ss-project__line-item">
           Санузлы: <br />
@@ -34,9 +34,11 @@
       />
       <div class="ss-project__minprice">
         <p class="ss-project__minprice-header">Цена от</p>
-        <p class="ss-project__minprice-summ">{{ formattedPrice }}Р</p>
+        <p class="ss-project__minprice-summ">
+          {{ formattedPrice(project.minprice) }}Р
+        </p>
       </div>
-      <router-link class="ss-project__view-more" :to="`/project/${project.id}`">
+      <router-link class="ss-project__view-more" :to="`/house/${project.id}`">
         <SsBtn class="ss-project__btn">Смотреть подробнее</SsBtn>
       </router-link>
     </div>

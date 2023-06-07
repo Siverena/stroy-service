@@ -30,13 +30,17 @@
             <a href="tel:+77777777777" class="ss-header__call-back-tel"
               >+7 777 777 77 77</a
             >
-            <a href="" class="ss-header__call-back-ring">Заказать звонок</a>
+            <p
+              @click="this.$store.commit('openModal')"
+              class="ss-header__call-back-ring"
+            >
+              Заказать звонок
+            </p>
           </div>
         </div>
       </div>
       <div class="ss-header__middle">
         <div class="ss-header__logo-cont">
-
           <router-link to="/">
             <img
               src="../../assets/img/ss-header/logo.svg"
@@ -49,7 +53,6 @@
             @click="this.$store.commit('openModal')"
             >Оставить заявку</SsBtn
           >
-
         </div>
         <div class="ss-header__quality">
           <img
