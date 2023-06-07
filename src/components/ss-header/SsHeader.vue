@@ -49,7 +49,7 @@
             />
           </router-link>
           <SsBtn
-            class="ss-header__add-task"
+            class="ss-btn--green ss-header__add-task"
             @click="this.$store.commit('openModal')"
             >Оставить заявку</SsBtn
           >
