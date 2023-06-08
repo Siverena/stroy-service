@@ -3,6 +3,7 @@
     border-top: 10px solid #22be4b;
     border-bottom: 10px solid #22be4b;
     min-height: 453px;
+    position: relative;
     &__container {
         height: 100%;
         display: flex;
@@ -37,6 +38,11 @@
         flex-direction: column;
         flex-grow: 1;
         justify-content: space-between;
+    }
+    &__send-us {
+        position: fixed;
+        right: 40px;
+        bottom: 27px;
     }
 }
 @media (max-width: 1280px) {

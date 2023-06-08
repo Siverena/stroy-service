@@ -37,7 +37,7 @@
         </div>
       </div>
     </div>
+    <SsSendUs class="ss-footer__send-us" />
   </div>
 </template>
-
 <script src="./ss-footer.js"></script>

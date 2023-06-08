@@ -5,7 +5,7 @@
     <div class="ss-house__info">
       <div class="ss-house__slider">
         <img
-          :src="images[currentImage] /*../../assets/img/ss-house/house.png*/"
+          :src="images[currentImage]"
           :alt="house.projectName"
           class="ss-house__slider-image"
         />
@@ -42,7 +42,11 @@
           <p>Доставка до 500 км: 0 руб.</p>
           <p>Оплата: без предоплаты</p>
           <p class="general__info">Стоимость проекта указана со сборкой!</p>
-          <SsBtn class="general__btn ss-btn--grey">Заказать</SsBtn>
+          <SsBtn
+            @click="this.$store.commit('openModal')"
+            class="general__btn ss-btn--grey"
+            >Заказать</SsBtn
+          >
         </div>
         <div class="general__infoblock">
           <p class="general__header">Под ключ</p>
@@ -71,7 +75,11 @@
           <p>Доставка до 500 км: 0 руб.</p>
           <p>Оплата: без предоплаты</p>
           <p class="general__info">Стоимость проекта указана со сборкой!</p>
-          <SsBtn class="general__btn ss-btn--green">Заказать</SsBtn>
+          <SsBtn
+            @click="this.$store.commit('openModal')"
+            class="general__btn ss-btn--green"
+            >Заказать</SsBtn
+          >
         </div>
       </div>
     </div>
@@ -84,6 +92,59 @@
         @click="currentImage = index"
         class="ss-house__thumbnail"
       />
+    </div>
+    <SsSectionHeader>Варианты комплектаций</SsSectionHeader>
+    <div class="ss-house__variables variables">
+      <div class="variables__conteiner">
+        <div class="variables__col">
+          <div class="variables__header variables__header--fullConstruction">
+            <p>Под ключ</p>
+            <span>4 995 000Р</span>
+          </div>
+          <div class="variables__list-cont">
+            <ol class="variables__list">
+              <li
+                v-for="(full, key) in house.complects.fullConstruction"
+                :key="key"
+              >
+                {{ full }}
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="variables__col">
+          <div class="variables__header variables__header--withoutFinishing">
+            <p>Без отделки</p>
+            <span>2 000 000Р</span>
+          </div>
+          <div class="variables__list-cont">
+            <ol class="variables__list">
+              <li
+                v-for="(full, key) in house.complects.withoutFinishing"
+                :key="key"
+              >
+                {{ full }}
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ss-house__services services">
+      <SsSectionHeader>Дополнительные услуги</SsSectionHeader>
+      <ul>
+        <li>Сухой профилированный брус 95х145 мм. 25 000 р.</li>
+        <li>Сухой профилированный брус 95х145 мм. 25 000 р.</li>
+        <li>Сухой профилированный брус 95х145 мм. 25 000 р.</li>
+        <li>Сухой профилированный брус 95х145 мм. 25 000 р.</li>
+        <li>Сухой профилированный брус 95х145 мм. 25 000 р.</li>
+        <li>Сухой профилированный брус 95х145 мм. 25 000 р.</li>
+        <li>Сухой профилированный брус 95х145 мм. 25 000 р.</li>
+        <li>Сухой профилированный брус 95х145 мм. 25 000 р.</li>
+        <li>Сухой профилированный брус 95х145 мм. 25 000 р.</li>
+        <li>Сухой профилированный брус 95х145 мм. 25 000 р.</li>
+        <li>Сухой профилированный брус 95х145 мм. 25 000 р.</li>
+      </ul>
     </div>
   </div>
 </template>

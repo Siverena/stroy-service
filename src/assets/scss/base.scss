@@ -26,6 +26,9 @@ body {
     }
 }
 @media (max-width: 760px) {
+    body {
+        min-width: 375px;
+    }
     .container {
         width: 375px;
         padding: 0 15px;
