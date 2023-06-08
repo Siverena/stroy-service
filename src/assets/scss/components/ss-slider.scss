@@ -42,3 +42,8 @@
   height: 250px;
   width: 100%;
 }
+@media (max-width: 760px) {
+  .agile {
+    display: none;
+  }
+}

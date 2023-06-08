@@ -18,6 +18,9 @@
         display: flex;
         font-size: 16px;
     }
+    &__home {
+        display: none;
+    }
     &__social {
         display: flex;
         align-items: center;
@@ -162,11 +165,28 @@
 }
 @media (max-width: 760px) {
     .ss-header {
+        background-size: auto 333px;
         &__container {
-            min-height: 300px;
+            min-height: 333px;
+            justify-content: flex-start;
         }
         &__top {
-            padding: 18px 0;
+            padding: 0px 0;
+        }
+        &__home {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $btn-green;
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            position: absolute;
+            top: 10px;
+            svg {
+                width: 18px;
+                height: 17px;
+            }
         }
         &__call-back {
             display: none;
@@ -176,6 +196,7 @@
         }
         &__social-mob {
             display: flex !important;
+            margin-bottom: 10px;
         }
         &__add-task {
             display: none;
@@ -191,6 +212,7 @@
         }
         &__middle {
             margin-bottom: 5px;
+            margin-top: 28px;
         }
         &__advantages-image {
             width: 30px;
@@ -198,11 +220,12 @@
             margin-bottom: 5px;
         }
         &__bottom {
-            padding: 5px 0;
+            padding: 0;
         }
         &__logo {
             width: 168px;
             height: 123px;
+            margin-bottom: 10px;
         }
     }
 }

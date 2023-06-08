@@ -2,6 +2,7 @@ import { mapActions, mapGetters } from 'vuex';
 import SsProject from './ss-project/SsProject.vue';
 import SsSectionHeader from '@/elements/ss-section-header/SsSectionHeader.vue';
 import SsLoader from '@/elements/ss-loader/SsLoader.vue';
+import SsBtn from '@/elements/ss-btn/SsBtn.vue';
 export default {
   name: 'SsProjects',
   data() {
@@ -15,6 +16,7 @@ export default {
     SsProject,
     SsSectionHeader,
     SsLoader,
+    SsBtn,
   },
   methods: {
     ...mapActions(['fetchProjects']),
