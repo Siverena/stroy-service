@@ -5,10 +5,20 @@
     <div class="ss-house__info">
       <div class="ss-house__slider">
         <img
-          src="../../assets/img/ss-house/house.png"
-          alt=""
+          :src="images[currentImage] /*../../assets/img/ss-house/house.png*/"
+          :alt="house.projectName"
           class="ss-house__slider-image"
         />
+        <div class="ss-house__nav-buttons">
+          <div
+            @click="setPrevImage"
+            class="ss-house__nav-button ss-house__nav-button--prev"
+          ></div>
+          <div
+            @click="setNextImage"
+            class="ss-house__nav-button ss-house__nav-button--next"
+          ></div>
+        </div>
       </div>
       <div class="ss-house__general general">
         <div class="general__infoblock">
@@ -64,6 +74,16 @@
           <SsBtn class="general__btn ss-btn--green">Заказать</SsBtn>
         </div>
       </div>
+    </div>
+    <div class="ss-house__thumbnails">
+      <img
+        v-for="(image, index) in images"
+        :key="index"
+        :src="image"
+        :alt="image"
+        @click="currentImage = index"
+        class="ss-house__thumbnail"
+      />
     </div>
   </div>
 </template>
