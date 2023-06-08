@@ -4,3 +4,9 @@
     font-weight: 700;
     text-align: center;
 }
+@media (max-width: 760px) {
+    .ss-section-header {
+        margin: 10px auto;
+        font-size: 15px;
+    }
+}

@@ -39,7 +39,12 @@
         </p>
       </div>
       <router-link class="ss-project__view-more" :to="`/house/${project.id}`">
-        <SsBtn class="ss-project__btn">Смотреть подробнее</SsBtn>
+        <SsBtn class="ss-project__btn"
+          ><span> Смотреть подробнее</span>
+          <img
+            src="../../../assets/img/ss-projects/free-icon-font-eye-3917112.svg"
+            alt=""
+        /></SsBtn>
       </router-link>
     </div>
   </div>

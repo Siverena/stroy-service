@@ -50,3 +50,40 @@
         text-decoration: none;
     }
 }
+@media (max-width: 1630px) {
+    .ss-categories {
+        &__items {
+            justify-content: space-evenly;
+        }
+    }
+}
+@media (max-width: 760px) {
+    .ss-categories {
+        &__items {
+            grid-template-columns: repeat(auto-fill, 168px);
+        }
+    }
+    .ss-category {
+        width: 168px;
+        height: auto;
+        &__top {
+            width: 168px;
+            height: 105px;
+        }
+        &__image {
+        }
+        &__text {
+            font-size: 12px;
+            height: 50px;
+            padding-bottom: 5px;
+            line-height: 20px;
+        }
+        &__btn {
+            height: 40px;
+            font-size: 12px;
+            text-transform: initial;
+        }
+        &__view-more {
+        }
+    }
+}

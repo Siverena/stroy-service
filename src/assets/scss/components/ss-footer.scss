@@ -26,6 +26,9 @@
         line-height: 40px;
         font-weight: 700;
         margin-bottom: 34px;
+        &--mobile {
+            display: none;
+        }
     }
     &__text {
         line-height: 25px;
@@ -34,5 +37,29 @@
         flex-direction: column;
         flex-grow: 1;
         justify-content: space-between;
+    }
+}
+@media (max-width: 1280px) {
+    .ss-footer {
+        &__container {
+            flex-direction: column;
+        }
+        &__image {
+            width: 345px;
+            height: 251px;
+            margin-bottom: 26px;
+        }
+        &__text {
+            font-size: 12px;
+            p {
+                margin-bottom: 26px;
+            }
+        }
+        &__header {
+            display: none;
+            &--mobile {
+                display: block;
+            }
+        }
     }
 }
