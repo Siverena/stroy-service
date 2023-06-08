@@ -13,10 +13,6 @@
         justify-content: space-between;
     }
     &__map-addr-header {
-        // font-weight: 700;
-        // font-size: 22px;
-        // line-height: 40px;
-        // margin-bottom: 30px;
         font-weight: 700;
         font-size: 17px;
         line-height: 23px;
@@ -37,5 +33,24 @@
     }
     &__map-block {
         margin-bottom: 10px;
+    }
+}
+@media (max-width: 760px) {
+    .ss-contacts {
+        &__map-info {
+            width: 345px;
+        }
+        &__map-addr-header {
+            font-size: 15px;
+        }
+        &__map-text {
+            font-size: 12px;
+            img {
+            }
+            a {
+            }
+        }
+        &__map-block {
+        }
     }
 }

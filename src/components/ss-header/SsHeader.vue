@@ -48,6 +48,7 @@
               class="ss-header__logo"
             />
           </router-link>
+          <ssSocial class="ss-header__social-mob" />
           <SsBtn
             class="ss-btn--green ss-header__add-task"
             @click="this.$store.commit('openModal')"
@@ -86,7 +87,7 @@
           />
           <p class="ss-header__advantages-text">Собственное производство</p>
         </div>
-        <div class="ss-header__advantages">
+        <div class="ss-header__advantages ss-header__advantages--none-mob">
           <img
             src="../../assets/img/ss-header/pins_placeholders_location_map_markers_geolocation_address_icon_185988.png"
             alt=""
@@ -104,7 +105,7 @@
             Квалифицированные специалисты
           </p>
         </div>
-        <div class="ss-header__advantages">
+        <div class="ss-header__advantages ss-header__advantages--none-tablet">
           <img
             src="../../assets/img/ss-header/hand_like_thumbs_up_icon_185975.png"
             alt=""
@@ -115,7 +116,7 @@
             на все!
           </p>
         </div>
-        <div class="ss-header__advantages">
+        <div class="ss-header__advantages ss-header__advantages--none-tablet">
           <img
             src="../../assets/img/ss-header/lock_padlock_security_icon_185979.png"
             alt=""

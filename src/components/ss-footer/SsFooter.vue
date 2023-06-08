@@ -1,6 +1,7 @@
 <template>
   <div class="ss-footer">
     <div class="container ss-footer__container">
+      <div class="ss-footer__header ss-footer__header--mobile">О компании</div>
       <img
         src="../../assets/img/ss-footer/house.png"
         alt=""
