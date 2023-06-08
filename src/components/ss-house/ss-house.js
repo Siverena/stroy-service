@@ -14,10 +14,14 @@ export default {
       loading: true,
       house: {},
       sizes: {},
+      currentImage: 0,
     };
   },
   computed: {
     ...mapGetters(['getHouse', 'getCategory']),
+    images() {
+      return this.house.images;
+    },
   },
   methods: {
     ...mapActions(['fetchHouse', 'fetchCategory']),
@@ -41,6 +45,20 @@ export default {
       //price:487000
       // sizeId:20001
       //нужно обратиться к категориям (categories.sizes) и по id размера достать сам размер,
+    },
+    setNextImage() {
+      if (this.currentImage < this.images.length - 1) {
+        this.currentImage++;
+      } else {
+        this.currentImage = 0;
+      }
+    },
+    setPrevImage() {
+      if (this.currentImage > 0) {
+        this.currentImage--;
+      } else {
+        this.currentImage = this.images.length - 1;
+      }
     },
   },
   async created() {

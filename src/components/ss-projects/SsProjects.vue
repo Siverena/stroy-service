@@ -1,5 +1,5 @@
 <template>
-  <SsSectionHeader>Выберите Ваш будующий проект</SsSectionHeader>
+  <SsSectionHeader>Выберите Ваш будущий проект</SsSectionHeader>
   <SsLoader v-if="loading" />
   <div class="ss-projects__items" v-if="!loading">
     <SsProject
