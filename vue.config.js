@@ -1,8 +1,3 @@
-// const { defineConfig } = require("@vue/cli-service");
-// module.exports = defineConfig({
-//   transpileDependencies: true,
-// });
-
 const { defineConfig } = require('@vue/cli-service');
 module.exports = defineConfig({
   transpileDependencies: true,
@@ -13,15 +8,4 @@ module.exports = defineConfig({
       rewrites: [{ from: /./, to: '/' }],
     },
   },
-  // configureWebpack: {
-  //   plugins: [new NodePolyfillPlugin()],
-  //   resolve: {
-  //     fallback: {
-  //       fs: false,
-  //       path: false,
-  //       os: false,
-  //       net: false,
-  //     },
-  //   },
-  // },
 });

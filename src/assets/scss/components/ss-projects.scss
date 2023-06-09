@@ -12,6 +12,27 @@
         height: 322px;
         position: relative;
         margin-bottom: 10px;
+
+        &:hover {
+            &::before {
+                opacity: 1;
+                transition: opacity 0.3s;
+            }
+        }
+        &::before {
+            content: "";
+            width: 100%;
+            position: absolute;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.59);
+            z-index: 5;
+            background-image: url(@/assets/img/ss-projects/free-icon-font-picture-3917317.svg);
+            background-size: 45px 45px;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
     }
     &__img {
         width: 100%;
