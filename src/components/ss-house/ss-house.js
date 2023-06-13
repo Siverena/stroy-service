@@ -1,5 +1,7 @@
 import SsLoader from '@/elements/ss-loader/SsLoader.vue';
 import SsSectionHeader from '@/elements/ss-section-header/SsSectionHeader.vue';
+
+import SsModalGallery from '@/components/ss-modal-gallery/SsModalGallery.vue';
 import SsBtn from '@/elements/ss-btn/SsBtn.vue';
 import { mapActions, mapGetters } from 'vuex';
 export default {
@@ -8,6 +10,7 @@ export default {
     SsLoader,
     SsSectionHeader,
     SsBtn,
+    SsModalGallery,
   },
   data() {
     return {
@@ -15,6 +18,8 @@ export default {
       house: {},
       sizes: {},
       currentImage: 0,
+      zoom: false,
+      window: document.querySelector('body'),
     };
   },
   computed: {
@@ -40,12 +45,7 @@ export default {
     formattedPrice(string) {
       return new Intl.NumberFormat('ru-RU').format(string);
     },
-    getSizeForPrice(price) {
-      // const res = this.categories.
-      //price:487000
-      // sizeId:20001
-      //нужно обратиться к категориям (categories.sizes) и по id размера достать сам размер,
-    },
+
     setNextImage() {
       if (this.currentImage < this.images.length - 1) {
         this.currentImage++;
@@ -59,6 +59,17 @@ export default {
       } else {
         this.currentImage = this.images.length - 1;
       }
+    },
+    openGallery(imgNumber = null) {
+      if (imgNumber !== null) {
+        this.currentImage = imgNumber;
+      }
+      this.zoom = true;
+      this.window.style.overflow = 'hidden';
+    },
+    closeGallery() {
+      this.zoom = false;
+      this.window.style.overflow = 'scroll';
     },
   },
   async created() {

@@ -8,17 +8,17 @@
           :src="images[currentImage]"
           :alt="house.projectName"
           class="ss-house__slider-image"
+          @click="openGallery"
         />
-        <div class="ss-house__nav-buttons">
-          <div
-            @click="setPrevImage"
-            class="ss-house__nav-button ss-house__nav-button--prev"
-          ></div>
-          <div
-            @click="setNextImage"
-            class="ss-house__nav-button ss-house__nav-button--next"
-          ></div>
-        </div>
+
+        <div
+          @click="setPrevImage"
+          class="ss-house__nav-button ss-house__nav-button--prev"
+        ></div>
+        <div
+          @click="setNextImage"
+          class="ss-house__nav-button ss-house__nav-button--next"
+        ></div>
       </div>
       <div class="ss-house__general general">
         <div class="general__infoblock">
@@ -89,7 +89,7 @@
         :key="index"
         :src="image"
         :alt="image"
-        @click="currentImage = index"
+        @click="openGallery(index)"
         class="ss-house__thumbnail"
       />
     </div>
@@ -146,6 +146,14 @@
         <li>Сухой профилированный брус 95х145 мм. 25 000 р.</li>
       </ul>
     </div>
+    <SsModalGallery
+      v-if="zoom"
+      :currentImage="currentImage"
+      :images="images"
+      :closeGallery="closeGallery"
+      :setPrevImage="setPrevImage"
+      :setNextImage="setNextImage"
+    />
   </div>
 </template>
 <script src="./ss-house.js"></script>
