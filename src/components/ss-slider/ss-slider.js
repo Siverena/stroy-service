@@ -43,15 +43,8 @@ export default {
       return Math.floor(Math.random() * (arr.length - 1));
     },
     getPercent(promoId) {
-      console.log(promoId);
-
       try {
-        // this.loading = true;
-        // this.fetchPromo();
         const per = this.getPromo.find((el) => el.promoID === promoId);
-        console.log(per);
-        console.log(per.sale);
-        // this.loading = false;
         return per.sale;
       } catch (e) {
         console.log(e);

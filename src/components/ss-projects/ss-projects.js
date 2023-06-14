@@ -36,5 +36,4 @@ export default {
   async created() {
     this.loadData();
   },
-  mounted() {},
 };

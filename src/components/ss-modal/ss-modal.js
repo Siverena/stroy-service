@@ -12,6 +12,6 @@ export default {
     ...mapActions(['closeModal']),
   },
   computed: {
-    ...mapGetters(['isModalOpen']),
+    ...mapGetters(['isModalOpen', 'getHeader', 'getHouse']),
   },
 };

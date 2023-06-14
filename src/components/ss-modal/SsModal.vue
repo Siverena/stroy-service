@@ -1,10 +1,7 @@
 <template>
-  <div class="ss-modal-overlay" @click.self="this.$store.commit('closeModal')">
+  <div class="ss-modal-overlay" @click.self="closeModal">
     <div class="ss-modal">
-      <SsBtn
-        class="ss-btn--grey ss-modal__close-mob"
-        @click="this.$store.commit('closeModal')"
-      >
+      <SsBtn class="ss-btn--grey ss-modal__close-mob" @click="closeModal">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -26,9 +23,14 @@
           </g>
         </svg>
       </SsBtn>
-      <header class="ss-modal__header">Оформление заказа</header>
-      <p class="ss-modal__item-name">
-        Проект дома <a href="#" class="ss-modal__item-link">R-13467</a>
+      <header class="ss-modal__header">{{ getHeader }}</header>
+      <p class="ss-modal__item-name" v-if="getHouse">
+        Проект дома
+        <router-link
+          :to="`/house/${getHouse.id}`"
+          class="ss-modal__item-link"
+          >{{ getHouse.projectName }}</router-link
+        >
       </p>
       <label for="fio" class="ss-modal__label">ФИО<span> *</span></label>
       <input
@@ -71,9 +73,7 @@
       <SsBtn @click="submit" class="ss-btn--green ss-modal__send-btn"
         >Отправить заявку</SsBtn
       >
-      <SsBtn
-        class="ss-btn--grey ss-modal__close"
-        @click="this.$store.commit('closeModal')"
+      <SsBtn class="ss-btn--grey ss-modal__close" @click="closeModal"
         >Назад</SsBtn
       >
     </div>

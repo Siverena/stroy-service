@@ -28,7 +28,7 @@ export default {
       this.state.isLoaded = true;
     },
     async fetchCategory({ commit }, id) {
-      const category = dataCategories.filter((el) => el.id === id);
+      const category = dataCategories.filter((el) => el.id === id)[0];
       commit('SET_CATEGORY', category);
       this.state.isLoaded = true;
     },

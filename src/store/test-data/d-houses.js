@@ -3,15 +3,8 @@ export default [
   {
     id: '1',
     idCategory: '1',
-    projectName: 'Проект дома R-1',
+    projectName: 'R-1',
     images: [
-      require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
-      require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
-      require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
-      require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
-      require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
-      require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
-      require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       'https://images.unsplash.com/photo-1453831362806-3d5577f014a4?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ',
       'https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ',
@@ -114,7 +107,7 @@ export default [
   {
     id: '2',
     idCategory: '1',
-    projectName: 'Проект дома R-12',
+    projectName: 'R-12',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -218,7 +211,7 @@ export default [
   {
     id: '3',
     idCategory: '1',
-    projectName: 'Проект дома R-1324',
+    projectName: 'R-1324',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -322,7 +315,7 @@ export default [
   {
     id: '4',
     idCategory: '1',
-    projectName: 'Проект дома R-18324',
+    projectName: 'R-18324',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -427,7 +420,7 @@ export default [
   {
     id: '5',
     idCategory: '2',
-    projectName: 'Проект дома R-16788',
+    projectName: 'R-16788',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -523,7 +516,7 @@ export default [
   {
     id: '6',
     idCategory: '2',
-    projectName: 'Проект дома R-13456',
+    projectName: 'R-13456',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -619,7 +612,7 @@ export default [
   {
     id: '7',
     idCategory: '2',
-    projectName: 'Проект дома R-135467',
+    projectName: 'R-135467',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -715,7 +708,7 @@ export default [
   {
     id: '8',
     idCategory: '2',
-    projectName: 'Проект дома R-1336456',
+    projectName: 'R-1336456',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -811,7 +804,7 @@ export default [
   {
     id: '9',
     idCategory: '2',
-    projectName: 'Проект дома R-13545',
+    projectName: 'R-13545',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -907,7 +900,7 @@ export default [
   {
     id: '10',
     idCategory: '2',
-    projectName: 'Проект дома R-4355',
+    projectName: 'R-4355',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -1003,7 +996,7 @@ export default [
   {
     id: '11',
     idCategory: '2',
-    projectName: 'Проект дома R-43556',
+    projectName: 'R-43556',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -1099,7 +1092,7 @@ export default [
   {
     id: '12',
     idCategory: '2',
-    projectName: 'Проект дома R-76678',
+    projectName: 'R-76678',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -1195,7 +1188,7 @@ export default [
   {
     id: '13',
     idCategory: '2',
-    projectName: 'Проект дома R-6753',
+    projectName: 'R-6753',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -1291,7 +1284,7 @@ export default [
   {
     id: '14',
     idCategory: '2',
-    projectName: 'Проект дома R-4356578',
+    projectName: 'R-4356578',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -1388,7 +1381,7 @@ export default [
   {
     id: '15',
     idCategory: '3',
-    projectName: 'Проект дома R-4356578',
+    projectName: 'R-4356578',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -1492,7 +1485,7 @@ export default [
   {
     id: '16',
     idCategory: '3',
-    projectName: 'Проект дома R-435465',
+    projectName: 'R-435465',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -1596,7 +1589,7 @@ export default [
   {
     id: '17',
     idCategory: '3',
-    projectName: 'Проект дома R-6787879',
+    projectName: 'R-6787879',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -1701,7 +1694,7 @@ export default [
   {
     id: '18',
     idCategory: '4',
-    projectName: 'Проект дома R-89745',
+    projectName: 'R-89745',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -1797,7 +1790,7 @@ export default [
   {
     id: '19',
     idCategory: '4',
-    projectName: 'Проект дома R-89745',
+    projectName: 'R-89745',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
@@ -1893,7 +1886,7 @@ export default [
   {
     id: '20',
     idCategory: '4',
-    projectName: 'Проект дома R-89745',
+    projectName: 'R-89745',
     images: [
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
       require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),

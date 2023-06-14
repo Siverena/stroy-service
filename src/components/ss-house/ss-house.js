@@ -1,6 +1,5 @@
 import SsLoader from '@/elements/ss-loader/SsLoader.vue';
 import SsSectionHeader from '@/elements/ss-section-header/SsSectionHeader.vue';
-
 import SsModalGallery from '@/components/ss-modal-gallery/SsModalGallery.vue';
 import SsBtn from '@/elements/ss-btn/SsBtn.vue';
 import { mapActions, mapGetters } from 'vuex';
@@ -29,14 +28,14 @@ export default {
     },
   },
   methods: {
-    ...mapActions(['fetchHouse', 'fetchCategory']),
+    ...mapActions(['fetchHouse', 'fetchCategory', 'openModal']),
     async loadData() {
       try {
         this.loading = true;
         await this.fetchHouse(this.$route.params.id);
-        this.house = this.getHouse[0];
+        this.house = this.getHouse;
         await this.fetchCategory(this.house.idCategory);
-        this.sizes = this.getCategory[0].sizes;
+        this.sizes = this.getCategory.sizes;
         this.loading = false;
       } catch (e) {
         console.log(e);
@@ -60,10 +59,8 @@ export default {
         this.currentImage = this.images.length - 1;
       }
     },
-    openGallery(imgNumber = null) {
-      if (imgNumber !== null) {
-        this.currentImage = imgNumber;
-      }
+    openGallery(imgNumber) {
+      this.currentImage = imgNumber;
       this.zoom = true;
       this.window.style.overflow = 'hidden';
     },

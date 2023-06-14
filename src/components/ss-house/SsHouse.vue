@@ -1,14 +1,14 @@
 <template>
   <SsLoader v-if="loading" />
   <div class="ss-house" v-if="!loading">
-    <SsSectionHeader>{{ house.projectName }}</SsSectionHeader>
+    <SsSectionHeader>Проект дома {{ house.projectName }}</SsSectionHeader>
     <div class="ss-house__info">
       <div class="ss-house__slider">
         <img
           :src="images[currentImage]"
           :alt="house.projectName"
           class="ss-house__slider-image"
-          @click="openGallery"
+          @click="openGallery(currentImage)"
         />
 
         <div
@@ -43,7 +43,15 @@
           <p>Оплата: без предоплаты</p>
           <p class="general__info">Стоимость проекта указана со сборкой!</p>
           <SsBtn
-            @click="this.$store.commit('openModal')"
+            @click="
+              openModal({
+                header: 'Оформление заказа',
+                house: {
+                  id: house.id,
+                  name: house.projectName,
+                },
+              })
+            "
             class="general__btn ss-btn--grey"
             >Заказать</SsBtn
           >
@@ -76,7 +84,15 @@
           <p>Оплата: без предоплаты</p>
           <p class="general__info">Стоимость проекта указана со сборкой!</p>
           <SsBtn
-            @click="this.$store.commit('openModal')"
+            @click="
+              openModal({
+                header: 'Оформление заказа',
+                house: {
+                  id: house.id,
+                  name: house.projectName,
+                },
+              })
+            "
             class="general__btn ss-btn--green"
             >Заказать</SsBtn
           >

@@ -3,7 +3,7 @@ export default [
   {
     id: '1',
     idCategory: '1',
-    projectName: 'ПРОЕКТ ДОМА R-1',
+    projectName: 'R-1',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -17,7 +17,7 @@ export default [
   {
     id: '2',
     idCategory: '1',
-    projectName: 'ПРОЕКТ ДОМА R-12',
+    projectName: 'R-12',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '24',
     size: {
@@ -31,7 +31,7 @@ export default [
   {
     id: '3',
     idCategory: '1',
-    projectName: 'ПРОЕКТ ДОМА R-1324',
+    projectName: 'R-1324',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -45,7 +45,7 @@ export default [
   {
     id: '4',
     idCategory: '1',
-    projectName: 'ПРОЕКТ ДОМА R-1345',
+    projectName: 'R-1345',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -60,7 +60,7 @@ export default [
   {
     id: '5',
     idCategory: '2',
-    projectName: 'ПРОЕКТ ДОМА R-16788',
+    projectName: 'R-16788',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -74,7 +74,7 @@ export default [
   {
     id: '6',
     idCategory: '2',
-    projectName: 'ПРОЕКТ ДОМА R-13456',
+    projectName: 'R-13456',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -88,7 +88,7 @@ export default [
   {
     id: '7',
     idCategory: '2',
-    projectName: 'ПРОЕКТ ДОМА R-135467',
+    projectName: 'R-135467',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -102,7 +102,7 @@ export default [
   {
     id: '8',
     idCategory: '2',
-    projectName: 'ПРОЕКТ ДОМА R-1336456',
+    projectName: 'R-1336456',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -116,7 +116,7 @@ export default [
   {
     id: '9',
     idCategory: '2',
-    projectName: 'ПРОЕКТ ДОМА R-13545',
+    projectName: 'R-13545',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -130,7 +130,7 @@ export default [
   {
     id: '10',
     idCategory: '2',
-    projectName: 'ПРОЕКТ ДОМА R-4355',
+    projectName: 'R-4355',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -144,7 +144,7 @@ export default [
   {
     id: '11',
     idCategory: '2',
-    projectName: 'ПРОЕКТ ДОМА R-43556',
+    projectName: 'R-43556',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -158,7 +158,7 @@ export default [
   {
     id: '12',
     idCategory: '2',
-    projectName: 'ПРОЕКТ ДОМА R-76678',
+    projectName: 'R-76678',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -172,7 +172,7 @@ export default [
   {
     id: '13',
     idCategory: '2',
-    projectName: 'ПРОЕКТ ДОМА R-6753',
+    projectName: 'R-6753',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -186,7 +186,7 @@ export default [
   {
     id: '14',
     idCategory: '2',
-    projectName: 'ПРОЕКТ ДОМА R-4356578',
+    projectName: 'R-4356578',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -201,7 +201,7 @@ export default [
   {
     id: '15',
     idCategory: '3',
-    projectName: 'ПРОЕКТ ДОМА R-344567',
+    projectName: 'R-344567',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -215,7 +215,7 @@ export default [
   {
     id: '16',
     idCategory: '3',
-    projectName: 'ПРОЕКТ ДОМА R-435465',
+    projectName: 'R-435465',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -229,7 +229,7 @@ export default [
   {
     id: '17',
     idCategory: '3',
-    projectName: 'ПРОЕКТ ДОМА R-6787879',
+    projectName: 'R-6787879',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -244,7 +244,7 @@ export default [
   {
     id: '18',
     idCategory: '4',
-    projectName: 'ПРОЕКТ ДОМА R-89745',
+    projectName: 'R-89745',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -258,7 +258,7 @@ export default [
   {
     id: '19',
     idCategory: '4',
-    projectName: 'ПРОЕКТ ДОМА R-324567',
+    projectName: 'R-324567',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
@@ -272,7 +272,7 @@ export default [
   {
     id: '20',
     idCategory: '4',
-    projectName: 'ПРОЕКТ ДОМА R-325687',
+    projectName: 'R-325687',
     imgSrc: require('../../assets/img/ss-materials/c0c81ffac01c388dab57132d76c49470.png'),
     s: '115',
     size: {
