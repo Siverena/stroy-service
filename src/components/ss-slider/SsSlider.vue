@@ -34,7 +34,7 @@
             -{{ getPercent(random.promoID) }}%
           </div>
           <div class="slide-action__item-bottom">
-            {{ random.projectName }}
+            Проект дома {{ random.projectName }}
           </div>
         </div>
       </div>

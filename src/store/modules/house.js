@@ -28,12 +28,15 @@ export default {
     SET_PROJECTS(state, projects) {
       state.projects = projects;
     },
+    SET_IS_LOADED(state, isLoaded) {
+      state.isLoaded = isLoaded;
+    },
   },
   actions: {
     fetchHouse({ commit }, id) {
-      const house = dataHouse.filter((el) => el.id === id);
+      const house = dataHouse.filter((el) => el.id === id)[0];
       commit('SET_HOUSE', house);
-      this.state.isLoaded = true;
+      commit('SET_IS_LOADED', true);
     },
     fetchHousesOnPromo({ commit }) {
       const housesOnPromo = dataHouse.filter((el) => el.promoID != null);

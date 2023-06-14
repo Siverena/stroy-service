@@ -17,9 +17,7 @@ export default {
   },
   actions: {
     fetchPromo(ctx) {
-      const pr = dataPromo;
       ctx.commit('SET_PROMO', dataPromo);
-      console.log(dataPromo);
       this.state.isLoaded = true;
     },
   },

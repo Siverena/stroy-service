@@ -24,9 +24,7 @@
       </div>
     </router-link>
     <div class="ss-project__middle">
-      <p class="ss-project__name">
-        {{ project.projectName }}
-      </p>
+      <p class="ss-project__name">Проект дома {{ project.projectName }}</p>
     </div>
     <div class="ss-project__bottom">
       <img

@@ -47,7 +47,7 @@
               >+7 777 777 77 77</a
             >
             <p
-              @click="this.$store.commit('openModal')"
+              @click="openModal({ header: 'Заказать звонок' })"
               class="ss-header__call-back-ring"
             >
               Заказать звонок
@@ -67,7 +67,11 @@
           <ssSocial class="ss-header__social-mob" />
           <SsBtn
             class="ss-btn--green ss-header__add-task"
-            @click="this.$store.commit('openModal')"
+            @click="
+              openModal({
+                header: 'Оформление заказа',
+              })
+            "
             >Оставить заявку</SsBtn
           >
         </div>
