@@ -27,7 +27,6 @@
   &__nav-buttons {
     position: absolute;
     display: flex;
-    // flex-direction: column;
     justify-content: space-between;
     padding: 0 20px;
     top: 50%;
@@ -37,8 +36,6 @@
   &__nav-button {
     position: absolute;
     top: 50%;
-    // left: 0;
-    // right: 0;
     display: block;
     height: 40px;
     width: 40px;
@@ -102,6 +99,7 @@
     width: 220px;
   }
   &__prices {
+    text-align: center;
     p {
       line-height: 30px;
       span {
