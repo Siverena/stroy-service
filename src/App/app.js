@@ -3,7 +3,7 @@ import SsFooter from '@/components/ss-footer/SsFooter.vue';
 import SsContacts from '@/components/ss-contacts/SsContacts.vue';
 import SsModal from '@/components/ss-modal/SsModal.vue';
 import SsBtn from '@/elements/ss-btn/SsBtn.vue';
-import { mapGetters } from 'vuex';
+import { mapGetters, mapActions } from 'vuex';
 export default {
   name: 'App',
   components: {
@@ -13,7 +13,9 @@ export default {
     SsModal,
     SsBtn,
   },
-  methods: {},
+  methods: {
+    ...mapActions(['openModal']),
+  },
   computed: {
     ...mapGetters(['isModalOpen']),
   },
